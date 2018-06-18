@@ -1,7 +1,15 @@
-# unity-singleton
+# Unity Simple Singleton
 Dead simple unity singleton pattern implementation with no manager.
 
 Takes advantage of the way that unity loads objects to avoid needing a manager.
+
+## Usage
+
+Place this script on the object you want to be a singleton instance and give it a tag.
+
+Implement said tag into the tag variable of this class.
+
+## Code
 
 ```c#
 using System.Collections;
